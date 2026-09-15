@@ -58,4 +58,4 @@
  
 ## Как открыть
  
-Скачать файлы `index.html` и `style.css` (в одну папку) и открыть `index.html` в любом браузере (Chrome, Firefox, Edge и т.д.).
+Скачать файлы `index.html` и `style.css` (в одну папку) и открыть `index.html` в любом браузере (Chrome, Firefox, Edge и т.п.).
