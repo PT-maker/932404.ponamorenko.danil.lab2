@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О себе - Учёный и исследователь</title>
     <link rel="stylesheet" href="style.css">
     <style>
@@ -16,6 +17,7 @@
     <header>
         <h1>Понаморенко Данил</h1>
         <p>Страница «О себе»: Учёный и исследователь</p>
+        <span class="badge">Учёный</span>
     </header>
 
     <main>
@@ -50,30 +52,31 @@
         <section>
             <h2>Обратная связь</h2>
             <form action="#" method="post" style="opacity: 0.9;">
-                <p>
-                    <label for="name">Имя:</label><br>
+                <div class="form-field">
+                    <label for="name">Имя:</label>
                     <input type="text" id="name" name="name" placeholder="Введите ваше имя">
-                </p>
-                <p>
-                    <label for="email">Email:</label><br>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Введите ваш email">
-                </p>
-                <p>
-                    <label for="message">Сообщение:</label><br>
+                </div>
+                <div class="form-field">
+                    <label for="message">Сообщение:</label>
                     <textarea id="message" name="message" placeholder="Введите ваше сообщение" rows="5" cols="40"></textarea>
-                </p>
-                <p>
-                    <button type="submit">Отправить</button>
-                </p>
+                </div>
+                <button type="submit">Отправить</button>
             </form>
         </section>
 
     </main>
 
-    <aside>
-        <h2>Любимые технологии</h2>
-        <p>Область науки, которая меня вдохновляет - <strong>вычислительная математика и анализ данных</strong>. Мне интересно, как численные методы и параллельные вычисления помогают решать сложные научные задачи.</p>
-    </aside>
+    <div class="glass-wrap">
+        <aside>
+            <h2>Любимые технологии</h2>
+            <p>Область науки, которая меня вдохновляет - <strong>вычислительная математика и анализ данных</strong>. Мне интересно, как численные методы и параллельные вычисления помогают решать сложные научные задачи.</p>
+            <p>Подробнее: <a href="https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B" target="_blank" rel="noopener">Численные методы (Wikipedia)</a></p>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; 2026 Понаморенко Данил.</p>
